@@ -61,6 +61,36 @@
             justify-content: space-between;
         }
 
+        .comic-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-bottom: 10px;
+            font-size: 25px;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            color: rgb(244, 242, 222);
+            background-color: rgb(233, 179, 132);
+            border: 2px solid rgb(124, 157, 150);
+            border-radius: 10px;
+            box-shadow: 5px 5px 0px rgb(244, 242, 222);
+            transition: all 0.3s ease;
+        }
+
+        .comic-button:hover {
+            background-color: rgb(244, 242, 222);
+            color: rgb(233, 179, 132);
+            border: 2px solid rgb(124, 157, 150);
+            box-shadow: 5px 5px 0px rgb(233, 179, 132);
+        }
+
+        .comic-button:active {
+            background-color: #fcf414;
+            box-shadow: none;
+            transform: translateY(4px);
+        }
+
+
         h1{
             margin-bottom:10px;
             text-align:center;
@@ -131,9 +161,9 @@
                 <div class="section">
                 </br>
                 </br>
-                    <h1 style="color:#81D4D0">A brief introduction</h1>
+                    <button class="comic-button">Brieft Introduction</button>
                     <h2 style="color: #9ADAEB">Compound name "Hiu_Thien"</h2>
-                    <h2 style="color: #9ADAEB"> is formed from two elements: </h2>
+                    <h2 style="color: #9ADAEB"> is formed by two elements: </h2>
                     <h2 style="color:bisque" > ~ Curiosity 📚  </h2>
                     <h2 style="color:bisque" > ~ Risk-taker 🔥 </h2>
                     <h2 style="color:#9ADAEB">And its jobs is to: </h2>
